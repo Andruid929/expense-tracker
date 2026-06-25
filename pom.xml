@@ -7,11 +7,11 @@
   <version>1.0-SNAPSHOT</version>
 
   <properties>
-        <jdk.version>11</jdk.version>
+        <jdk.version>21</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-  <name>expense-tracker</name>
+  <name>Simple expense tracker</name>
 
   <dependencies>
 
@@ -38,6 +38,12 @@
       <groupId>io.github.andruid929</groupId>
       <artifactId>le-utils</artifactId>
       <version>4.3.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>info.picocli</groupId>
+      <artifactId>picocli</artifactId>
+      <version>4.7.7</version>
     </dependency>
 
   </dependencies>
